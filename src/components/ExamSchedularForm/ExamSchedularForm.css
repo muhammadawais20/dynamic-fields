@@ -1,0 +1,53 @@
+#examDateTime {
+    user-select: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font: inherit;
+    letter-spacing: inherit;
+    color: rgb(118, 118, 118);
+    border-color: rgb(118, 118, 118, 0.3);
+    border-width: thin;
+    box-sizing: content-box;
+    background: none;
+    height: 1.4375em;
+    margin: 0;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    min-width: 0;
+    width: -webkit-fill-available;
+    -webkit-animation-name: mui-auto-fill-cancel;
+    animation-name: mui-auto-fill-cancel;
+    -webkit-animation-duration: 10ms;
+    animation-duration: 10ms;
+    padding: 16px 14px;
+    outline: none;
+}
+
+#examDateTime:focus{
+    border: 2px solid rgb(25, 118, 210);
+}
+
+.examSchedularFormRemoveAction > button {
+    max-width: max-content;
+}
+
+@media (max-width: 600px) {
+    .examSchedularFormRemoveAction {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        justify-content: center !important;
+        margin-bottom: -40px !important;
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 400px) {
+     .examSchedularActions {
+        flex-direction: column !important;
+        gap: 0px !important;
+    }
+
+    .addFields {
+        margin-bottom: -15px;
+    }
+ }
